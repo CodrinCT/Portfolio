@@ -5,7 +5,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Home</title>
-    <link rel="stylesheet" href="/Portfolio/styles/StyleIndex.css" />
+    <link rel="stylesheet" href="/styles/StyleIndex.css" />
     <script
       src="https://kit.fontawesome.com/865c67cef5.js"
       crossorigin="anonymous"
@@ -36,7 +36,7 @@
           <img
             class="profile-photo"
             id="header-photo"
-            src="/Portfolio/images/dsBuffer.bmp.png"
+            src="/images/dsBuffer.bmp.png"
             alt=""
           />
         </div>
@@ -49,10 +49,10 @@
       <h3>About me</h3>
       <div class="detailes">
         <div class="photo-div" id="about-photo">
-          <img class="profile-photo" src="/Portfolio/images/dsBuffer2.bmp.png" />
+          <img class="profile-photo" src="images/dsBuffer2.bmp.png" />
         </div>
         <div class="info">
-          Hello, my name is Tapusa Constantin Codrin, I am 19 years old and from
+          Hello, my name is Tapusa Constantin Codrin, I am 20 years old and from
           Romania and I am manly a back-end developer, with skills obtained part
           self taught, part from a boot-camp. As you might have realised I don't
           have any conventional training( university to be more exact ), but I
@@ -97,17 +97,45 @@
     </div>
     <div class="projects" id="projects">
       <h3>Projects</h3>
-      <div class="first-project">
-        <a href="https://github.com/CodrinCT/MyFirstWebApp">
-          <label for="airport-app">Airport Application</label>
+      <div class="project">
+        <h2>Airport Application</h2>
+        <a href="https://github.com/CodrinCT/MyFirstWebApp" class="img-link">
+          <img src="images/AirportApplicationPhoto.png" alt="" srcset="" />
         </a>
-        <img src="/Portfolio/images/AirportApplicationPhoto.png" alt="" srcset="" />
         <p>
-          This is an web app that simulates the buying of an ticket from an
-          airport. The application is made with spring. The authentification and
-          controller security is done with the help of spring security. For
-          views I used thymeleaf. A little bit of html and css has been used for
-          the home page.
+          This is a web app that simulates the buying of a ticket from an
+          airport. The application is made with java, Spring, HTML and CSS.
+        </p>
+      </div>
+      <div class="project">
+        <h2>Pet Shelter</h2>
+        <a href="https://pet-shelter-webapp.herokuapp.com/" class="img-link">
+          <img src="images/pet-shelter-web.png" alt=""
+        /></a>
+        <p>
+          A web-app for animal shelters where users can look for an animal and
+          show their intention for adoption. It is made with Node.js,
+          JavaScript, HTML and CSS.
+        </p>
+      </div>
+      <div class="project">
+        <h2>Joke Maker</h2>
+        <a href="https://codrinct.github.io/Joke-Maker/" class="img-link">
+          <img src="images/JokeMaker.png" alt=""
+        /></a>
+        <p>
+          A web-app that consumes an API to return a joke to the user, either by
+          random or by the criterya specified by the user.
+        </p>
+      </div>
+      <div class="project">
+        <h2>Memory Game</h2>
+        <a href="https://codrinct.github.io/MemoryGame/" class="img-link">
+          <img src="images/MemoryGame.png" alt="Memory Game project photo" />
+        </a>
+        <p>
+          A little memory game in which the user has to match the shape and
+          order of the given random pattern.
         </p>
       </div>
     </div>
@@ -120,7 +148,7 @@
         </div>
         <div class="my-email">
           <label for="email">Email</label>
-          <p id="email">tapusacodrin@yahoo.com</p>
+          <p id="email">tapusacodrin@yahoo.ro</p>
         </div>
       </div>
       <h3>Media</h3>

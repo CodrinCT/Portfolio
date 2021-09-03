@@ -203,19 +203,15 @@ p {
   background-image: url("/Portfolio/images/christopher-gower-m_HRfLhgABo-unsplash@2x.png");
   background-size: 100%, 100%;
   background-repeat: no-repeat;
-  /* width: 100%; */
-  /* height: 670px; */
 }
 .skills h3 {
   font-size: 35px;
-  /* font-family: fantasy; */
   color: #16e0bd;
 }
 .all-skills {
   display: flex;
   justify-content: space-evenly;
   top: 5%;
-  /* flex-direction: column; */
 }
 
 .all-skills label {
@@ -263,17 +259,14 @@ p {
   margin-left: 5px;
   margin-right: 5px;
   font: normal normal 300 20px/24px Source Sans Pro;
-  /* font-size: 18px; */
 }
 .design {
   display: flex;
   flex-direction: column;
-  /* text-align: center; */
   text-align: justify;
   margin-right: 5px;
   max-width: 30%;
   font: normal normal 300 20px/24px Source Sans Pro;
-  /* font-size: 18px; */
 }
 .footer {
   background-color: #2e2e2e;
@@ -317,64 +310,71 @@ i {
   display: flex;
   flex-direction: column;
   align-items: center;
+  justify-content: center;
 }
-.first-project {
+.project {
   display: flex;
   flex-direction: column;
   margin: 10px;
+  align-items: center;
 }
-.first-project a {
-  align-content: center;
-  font-size: 24px;
-  color: white;
-  align-self: center;
+.project .img-link {
   margin-bottom: 10px;
+  width: 45%;
+  height: 40%;
 }
 
-.first-project a label {
-  cursor: pointer;
-}
-.first-project a label:hover {
-  font-size: 28px;
+.project h2:hover {
+  font-size: 35px;
   color: #16e0bd;
   transition-duration: 0.4s;
+  cursor: pointer;
 }
 
-.projects .first-project p {
+.projects .project p {
   font-size: 24px;
 }
-.projects h3 {
+
+#projects h3 {
   font-size: 34px;
   color: #16e0bd;
   margin-bottom: 7px;
+  align-items: center;
 }
 
-.first-project p {
+.project p {
   font: normal normal 300 18px/24px Source Sans Pro;
   max-width: 60%;
   align-self: center;
   text-align: justify;
 }
-.first-project img {
-  height: 30%;
-  width: 30%;
-  align-self: center;
+
+.project img {
+  width: 100%;
+  height: 100%;
 }
 
-.first-project img:hover {
-  height: 45%;
-  width: 45%;
+.project h2 {
+  align-self: center;
+  color: #e6b04b;
+  font-size: 30px;
+}
+
+.project a:hover {
+  height: 55%;
+  width: 60%;
   transition-duration: 0.4s;
 }
+
 @media only screen and (max-width: 500px) {
-  .first-project img {
-    height: 50%;
-    width: 50%;
+  .project .img-link {
+    height: 70%;
+    width: 75%;
   }
 
-  .first-project img:hover {
-    height: 70%;
-    width: 70%;
+  .project a:hover {
+    height: 80%;
+    width: 85%;
   }
   .contact-info #phone {
     font-size: 25px;
@@ -399,7 +399,7 @@ i {
     font-size: 24px;
     text-align: center;
   }
-  .projects .first-project p {
+  .projects .project p {
     text-align: center;
   }
   .contact-info {
